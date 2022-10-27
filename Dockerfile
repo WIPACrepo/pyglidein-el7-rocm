@@ -1,4 +1,4 @@
-FROM rocm/dev-centos-7:5.1.0
+FROM rocm/dev-centos-7:5.1
 
 RUN yum -y upgrade
 RUN yum -y install epel-release yum-plugin-priorities
